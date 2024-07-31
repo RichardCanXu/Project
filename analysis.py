@@ -68,8 +68,6 @@ ax7.set_title("Income count by race", loc='center', fontweight='bold', fontsize=
 ax7.set_xlabel("Race")
 ax7.legend(loc="upper right") 
 
-
-
 fig = plt.figure(figsize=(14,5))
 ax8 = sns.countplot(data= df, x='sex', hue='income')
 ax8.set_title("Income count by sex", loc='center', fontweight='bold', fontsize=18)
